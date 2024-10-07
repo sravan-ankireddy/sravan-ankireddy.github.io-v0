@@ -1,11 +1,19 @@
 {
   "basics": {
-    "name": "Sravan Ankireddy",
+    "name": "Albert Einstein",
+    "label": "Scientist",
     "image": "",
-    "email": "sravan.ankireddy@wisc.edu",
-    "phone": "(608) 686-2694",
-    "LinkedIn": "<a href='https://www.linkedin.com/in/sravan-ankireddy/'>https://www.linkedin.com/in/sravan-ankireddy/</a>",
-    "url": "https://sravan-ankireddy.github.io/",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
     "profiles": [
       {
         "network": "Twitter",
@@ -14,238 +22,51 @@
       }
     ]
   },
-  "research interests":{
-    "summary": "I am interested in problems at the intersection of Deep Learning and Information Theory. My current research focuses on developing ultra-low rate image compression schemes based on vision foundation models."
-  },
   "work": [
     {
-      "name": "Apple",
-      "url":"https://www.apple.com",
-      "team": "RF Systems",
-      "position": "Machine Learning Intern",
-      "startDate": "2024-05",
-      "endDate": "2024-08",
-      "highlights": [
-        "Tabular generative models for synthetic data generation to model rare scenarios."
-        // "Developed and trained a diffusion-based foundation model for RF calibration, focusing on synthetic data creation to model failures at the receiver.",
-        // "Reduced data collection needs by over 10x through the use of high-quality synthetic tabular datasets.",
-        // "Improved regression performance by training on synthetic data, achieving ~22% reduction in MSE."
-      ]
-    },
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
+    }
+  ],
+  "volunteer": [
     {
-      "name": "Samsung Research America",
-      "url": "https://sra.samsung.com/research-area/next-generation-communications/",
-      "team": "Standards and Mobility Innovation Lab",
-      "position": "AI Research Intern",
-      "startDate": "2023-05",
-      "endDate": "2023-08",
-      "highlights": [
-        "Sequence modeling for design of polar codes with Transformers using policy gradient methods."
-      ]
-    },
-    {
-      "name": "Qualcomm Research India",
-      "url": "https://www.qualcomm.com/research/5g",
-      "team": "Wireless Infrastructure Team",
-      "position": "Systems Engineer",
-      "startDate": "2018-07",
-      "endDate": "2019-02",
-      "highlights": [
-        "Developed and deployed multiple transceiver algorithms for next-generation WiFi chipsets."
-      ]
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
     {
-      "institution": "University of Texas at Austin",
-      "department": "Electrical and Computer Engineering",
-      "location": "Austin, TX",
-      "url": "https://www.wisc.edu/",
+      "institution": "University of Zurich, Zurich, Switzerland",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.uzh.ch/",
+      "area": "Software Development",
       "studyType": "PhD",
-      "startDate": "2021-08-01",
-      "endDate": "2025-12-31"
-    },
-
-    {
-      "institution": "Indian Institute of Technology, Madras",
-      "department": "Electrical Engineering",
-      "location": "Chennai, India",
-      "url": "https://www.iitm.ac.in/",
-      "studyType": "Bachelors and Masters",
-      "startDate": "2014-07-01",
-      "endDate": "2019-05-31"
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
-  "publications": [
+  "awards": [
     {
-      "name": "DeepPolar: Inventing Nonlinear Large-Kernel Polar Codes via Deep Learning",
-      "publisher": "Proceedings of International Conference on Machine Learning (ICML)",
-      "releaseDate": "2024",
-      "url": "https://proceedings.mlr.press/v235/hebbar24a.html",
-      "summary": "Proposes DeepPolar, a method to invent nonlinear large-kernel polar codes using deep learning techniques. This approach outperforms traditional polar codes in terms of error-correcting performance.",
-      "authors": "Ashwin Hebbar, Sravan Ankireddy, Hyeji Kim, Sewoong Oh, Pramod Viswanath"
-    },
-    {
-      "name": "Task-Aware Distributed Source Coding Under Dynamic Bandwidth",
-      "publisher": "Advances in Neural Information Processing Systems (NeurIPS)",
-      "releaseDate": "2024",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/016c63403370d81c24c1ca0123de6cfa-Abstract-Conference.html",
-      "summary": "Introduces a task-aware approach for distributed source coding in dynamic bandwidth environments. Utilizes deep learning to optimize bandwidth usage and improve coding efficiency.",
-      "authors": "Po-han Li, Sravan Ankireddy, Ruihan Philip Zhao, Hossein Nourkhiz Mahjoub, Ehsan Moradi Pari, Ufuk Topcu, Sandeep Chinchali, Hyeji Kim"
-    },
-    {
-      "name": "Exploring Explainability in Video Action Recognition",
-      "publisher": "3rd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR",
-      "releaseDate": "2024",
-      "url": "https://openaccess.thecvf.com/content/CVPR2024W/XAI4CV/papers/Saha_Exploring_Explainability_in_Video_Action_Recognition_CVPRW_2024_paper.pdf",
-      "summary": "Explores explainability techniques for video action recognition models. Proposes novel visualizations and explanations to understand model decisions.",
-      "authors": "Avinab Saha, Shashank Gupta, Sravan Ankireddy, Karl Chahine, Joydeep Ghosh"
-    },
-    {
-      "name": "Nested Construction of Polar Codes via Transformers",
-      "publisher": "Proceedings of the 2024 IEEE International Symposium on Information Theory (ISIT)",
-      "releaseDate": "2024",
-      "url": "https://ieeexplore.ieee.org/document/10619466",
-      "summary": "Presents a method to construct nested polar codes using Transformer models. Demonstrates performance improvements over conventional polar codes.",
-      "authors": "Sravan Ankireddy, S. Ashwin Hebbar, Heping Wan, Joonyoung Cho, Charlie Zhang"
-    },
-    {
-      "name": "Compressed Error HARQ: Feedback Communication on Noise-Asymmetric Channels",
-      "publisher": "Proceedings of the 2023 IEEE International Symposium on Information Theory (ISIT)",
-      "releaseDate": "2023",
-      "url": "https://ieeexplore.ieee.org/document/10206766",
-      "summary": "Proposes a compressed HARQ feedback mechanism for noise-asymmetric channels. Achieves better reliability and lower overhead than traditional HARQ.",
-      "authors": "Sravan Ankireddy, S. Ashwin Hebbar, Yihan Jiang, Pramod Viswanath, Hyeji Kim"
-    },
-    {
-      "name": "Interpreting Neural Min-Sum Decoders",
-      "publisher": "Proceedings of the 2023 IEEE International Conference on Communications (ICC)",
-      "releaseDate": "2023",
-      "url": "https://ieeexplore.ieee.org/document/10279074",
-      "summary": "Provides insights into neural min-sum decoders by analyzing their decision-making process. Proposes a method to interpret these models for better transparency.",
-      "authors": "Sravan Ankireddy, Hyeji Kim"
-    },
-    {
-      "name": "TinyTurbo: Efficient Turbo Decoders on Edge",
-      "publisher": "Proceedings of the 2022 IEEE International Symposium on Information Theory (ISIT)",
-      "releaseDate": "2022",
-      "url": "https://ieeexplore.ieee.org/abstract/document/9834589",
-      "summary": "Proposes TinyTurbo, an efficient turbo decoding method designed for edge devices. Demonstrates low latency and reduced resource usage.",
-      "authors": "S. Ashwin Hebbar, Rajesh K Mishra, Sravan Ankireddy, Ashok V Makkuva, Hyeji Kim, Pramod Viswanath"
-    },
-    {
-      "name": "LightCode: Light Analytical and Neural Codes for Channels with Feedback",
-      "publisher": "IEEE Journal on Selected Areas in Communications (JSAC)",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/pdf/2403.10751",
-      "summary": "Introduces LightCode, a hybrid analytical and neural code for channels with feedback. Achieves performance gains over existing feedback codes.",
-      "authors": "Sravan Ankireddy, Krishna Narayanan, Hyeji Kim"
-    },
-    {
-      "name": "Learning RL-Policies for Joint Beamforming Without Exploration: A Batch Constrained Off-Policy Approach",
-      "publisher": "arXiv preprint",
-      "releaseDate": "2023",
-      "url": "https://arxiv.org/abs/2310.08660",
-      "summary": "Develops a reinforcement learning approach for joint beamforming without exploration, using batch-constrained off-policy methods to optimize performance.",
-      "authors": "Heasung Kim, Sravan Ankireddy"
-    }
-  ]
-  ,
-  "research projects": [
-    {
-      "name": "Ultra Low-Rate Neural Image Compression",
-      "highlights": [
-        "Developed an ultra-low rate (<0.1 bpp) compression framework leveraging vision foundation models.",
-        "Designed a novel cross-attention aggregation technique to improve the alignment between input image and reconstructed image using textual captions as side information.",
-        "Improving realism-fidelity trade-off in reconstruction using RLHF guidance and preference datasets."
-      ],
-      "startDate": "2024-08-01"
-    },
-    {
-      "name": "Synthetic Datasets using Tabular Generative Models",
-      "highlights": [
-        "Developed and trained a diffusion-based foundation model for RF calibration, focusing on synthetic data creation to model failures at the receiver.",
-        "Reduced data collection needs by over 10× through the use of high-quality synthetic tabular datasets.",
-        "Improved regression performance by training on synthetic data, achieving ∼22% reduction in MSE."
-      ],
-      "startDate": "2024-05-24",
-      "endDate": "2024-08-24"
-    },
-    {
-      "name": "Improving In-Context Learning (ICL) in LLMs using Structured Noise",
-      "highlights": [
-        "Developed techniques to enhance ICL performance by improving the separation of demonstrations.",
-        "Proposed a method to select the optimal separator by analyzing perplexity for each demonstration.",
-        "Formulated an explanation for the empirical observations using Bayesian inference."
-      ],
-      "startDate": "2024-01-01",
-      "endDate": "Present"
-    },
-    {
-      "name": "Data Augmentation using Generative Models",
-      "highlights": [
-        "Explored parameter-efficient fine-tuning methods for text-to-image models for data augmentation.",
-        "Demonstrated gains of up to 3.4% in classification accuracy by augmenting the true datasets with synthetic images generated using low rank approximation (LoRA) with DreamBooth."
-      ],
-      "startDate": "2023-01-01",
-      "endDate": "2023-05-01"
-    },
-    {
-      "name": "Construction of Polar Codes using Sequence Modeling",
-      "highlights": [
-        "Modeled Polar code construction as a sequential decision making problem and designed a nested construction technique using transformer models and policy gradient methods.",
-        "Demonstrated significant gains (up to 0.8 dB) compared to patented Polar code in 5G-NR standards."
-      ],
-      "startDate": "2023-05-01",
-      "endDate": "2024-01-01"
-    },
-    {
-      "name": "Task-Aware Variable Rate Compression of Distributed Sources",
-      "highlights": [
-        "Designed distributed representation learning algorithm to optimize compression for downstream tasks.",
-        "Proposed a dimensionality reduction technique to encourage low-rank representations, allowing variable-rate compression using a single model."
-      ],
-      "startDate": "2022-07-01",
-      "endDate": "2023-09-01"
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "skills": [
-    {
-      "name": "Deep Learning",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Foundation Models",
-        "LLMs",
-        "PEFT",
-        "Diffusion Models",
-        "Transformers",
-        "Computer Vision",
-        "Representation Learning"
-      ]
-    },
-    {
-      "name": "Coding",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Pytorch",
-        "C++",
-        "MATLAB"
-      ]
-    }
-  ],
-  "awards": {
-    "highlights": [
-      "Harry and Rubye Gaston Graduate Scholarship from the Cockrell School of Engineering, 2024.",
-      "Finalist, Qualcomm Innovation Fellowship - North America (among 271 applicants), 2024.",
-      "Recipient of student travel awards to present research at NeurIPS, ISIT, and ICC, 2023.",
-      "Wilson - Tayabali Family Fellowship from the Cockrell School of Engineering, 2022.",
-      "George J. Heuer, Jr. Ph.D. Endowed Graduate Fellowship, 2021.",
-      "Secured a national rank of 337 out of 150,000+ students in JEE Advanced, 2014."
-    ]
-  },
   "certificates": [
     {
       "name": "Machine Learning",
@@ -290,6 +111,56 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
+  "publications": [
+    {
+      "name": "Zur Elektrody/namik bewegter Körper",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-06-30",
+      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+    },
+    {
+      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-03-18",
+      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+    },
+    {
+      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1916-03-20",
+      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
   "interests": [
     {
       "name": "Physics",
@@ -316,28 +187,14 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-  "languages": [
+  "projects": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
     }
   ]
 }
